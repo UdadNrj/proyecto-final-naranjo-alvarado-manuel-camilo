@@ -1,0 +1,206 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(42, 43, 40) !important;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 85px;
+  padding: 5px 10%;
+}
+.header .icono {
+  cursor: pointer;
+  height: 60px;
+  width: auto;
+  transition: all 0.3s;
+}
+.header .icono:hover {
+  transform: scale(1.2);
+}
+.header .nav-links {
+  list-style: none;
+}
+.header .nav-links li {
+  display: inline-block;
+  padding: 0 20px;
+}
+.header .nav-links li-hover {
+  transform: scale(1.1);
+}
+.header .nav-links a {
+  font-size: 700;
+  color: #ffffff;
+  text-decoration: none;
+}
+.header .nav-links li a:hover {
+  color: black;
+}
+
+.contenedor {
+  height: 700px;
+  background-image: url(../img/background-gym.webp);
+  background-position: center;
+  background-size: cover;
+}
+
+.gym {
+  margin-top: 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  align-content: center;
+}
+
+.box-img {
+  margin-top: 4rem;
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.box-text {
+  width: 800px;
+  padding: 2rem;
+  margin: 2rem;
+}
+
+.card-p-gym {
+  color: #F0EEED;
+  margin: 1rem;
+  padding: 1rem;
+  font-weight: 700;
+  font-family: "Quicksand", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  letter-spacing: 0.1rem;
+}
+
+.title-generic-p {
+  font-weight: 600;
+  font-family: "Quicksand", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  letter-spacing: 0.1rem;
+  color: white;
+}
+
+.column {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.card-desportes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 400px;
+  height: 400px;
+  background-color: #F0EEED;
+  border-radius: 1rem;
+}
+
+.card-title {
+  font-weight: 900;
+  font-family: "Quicksand", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.1rem;
+}
+
+.card-p {
+  margin: 1rem;
+  padding: 1rem;
+  font-weight: 600;
+  font-family: "Quicksand", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-size: 11px;
+  letter-spacing: 0.1rem;
+}
+
+footer {
+  width: 100%;
+  top: 90%;
+  position: fixed;
+}
+footer .footer-p {
+  font-weight: 600;
+  font-family: "Quicksand", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  letter-spacing: 0.1rem;
+  color: white;
+}
+footer .footer-col-1 {
+  width: auto;
+  margin: 1rem;
+  padding: 1rem;
+}
+footer .footer-fin {
+  text-align: center;
+  width: 100%;
+  border: 2px solid white;
+  border-radius: 2rem;
+  background-color: white;
+  box-shadow: #040D12;
+}
+footer .footer-p-f {
+  font-weight: 700;
+  font-family: "Quicksand", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  letter-spacing: 0.1rem;
+  color: #040D12;
+}
+
+/* styles footer */
+.container-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.btn {
+  background-color: #1f1f1f;
+  border: 0;
+  border-radius: 5px;
+  height: 30px;
+  transition: 0.5s;
+  width: 130px;
+}
+
+.btn-a {
+  text-decoration: none;
+  color: #F0EEED;
+  font-weight: 500;
+  font-family: "Quicksand", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+  letter-spacing: 0.1rem;
+}
+
+@media (max-width: 575.98px) {
+  .aboutgym {
+    width: 358px;
+    height: 250px;
+  }
+  footer {
+    width: 100%;
+    bottom: -10%;
+    position: relative;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
